@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "MyTargetAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mytarget-adapter/5.3.0/ISMyTargetAdapter5.3.0.zip",
-      checksum: "bcc2afc765038a450c9c54ba1b0372de86e8a8fc4400eb997c988b41ca354077"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mytarget-adapter/5.5.0/ISMyTargetAdapter5.5.0.zip",
+      checksum: "67e690fd7d7bf3e543f31bed9af76fa08678ba218e55968a14a7a7906eb0bd28"
     )
   ]
 )
