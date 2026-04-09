@@ -30,7 +30,7 @@ dependencies: [
 
 This package includes:
 - LevelPlay iOS SDK (Unity Mediation SDK)
-- MyTarget SDK v5.36.2
+- MyTarget SDK
 
 ## Documentation
 
