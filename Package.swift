@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "MyTargetAdapter", targets: ["MyTargetAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/myTargetSDK/mytarget-ios-spm", exact: "5.36.2"),
+    .package(url: "https://github.com/myTargetSDK/mytarget-ios-spm", exact: "5.42.0"),
     .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "MyTargetAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mytarget-adapter/5.6.0/ISMyTargetAdapter5.6.0.zip",
-      checksum: "54339d207ee5d9e36d6b64101e66f41ca773641ff1f5a23077c3076982d112c7"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mytarget-adapter/5.7.0/ISMyTargetAdapter5.7.0.zip",
+      checksum: "33c16c5a57d2f188630ada8a7a1a7138d96d06e8e614a028e9f582bc40e107e9"
     )
   ]
 )
