@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "MyTargetAdapter", targets: ["MyTargetAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/myTargetSDK/mytarget-ios-spm", exact: "5.44.1"),
+    .package(url: "https://github.com/myTargetSDK/mytarget-ios-spm", exact: "5.45.0"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "MyTargetAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mytarget-adapter/5.11.0/ISMyTargetAdapter5.11.0.zip",
-      checksum: "88c8551c769d0e47e3c0823b5721c1854027bedcd10c1d7e0938febd1bf0bd30"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mytarget-adapter/5.12.0/ISMyTargetAdapter5.12.0.zip",
+      checksum: "73f6b674f0f5608af104996c862ed474086a40fb93aeae718a77d5fbde7af65e"
     )
   ]
 )
